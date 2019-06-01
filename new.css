@@ -1,0 +1,167 @@
+/* CSS PART */
+
+.images{
+    width: 117%;
+    background-image: url('assets/BACKground.png');
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    padding:  10% 15% 0% 0%;
+    height: 50vh 10vh;
+
+}
+
+.rightside
+{
+    background-image: linear-gradient(41deg, #3597f5 0%, #a04df8 100%);
+    border-top-left-radius: 37px;
+    border-bottom-left-radius: 37px; 
+    width: 100%
+}
+
+
+.head1
+{
+	font-size: 250%;
+    line-height: 100%;
+    color: #3597f5;
+    font-family: "Aaargh";
+    font-weight: 400;
+    /* padding: 108px; */
+    padding: 5% 20% 0% 17%;
+    /* margin: -4%;*/
+
+}
+
+.head2
+{
+	font-size: 50px;
+	line-height: 50%;
+	color: #ffffff;
+	font-family: "Aaargh";
+	font-weight: 400;
+	text-align: center;
+    padding-top:25%;
+    padding-bottom: 3%;
+}
+
+.para
+{
+	font-size: 15px;
+	line-height: 30px;
+	color: #ffffff;
+	font-family: "Aaargh";
+	font-weight: 400;
+	text-align: center;
+}
+
+.soon
+{
+	font-size: 30px;
+    letter-spacing: 7px;
+    line-height: 103%;
+    color: #ffffff;
+    padding-top: 5%;
+    font-family: "Aaargh";
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 0%;
+}
+ 
+@media(max-width:576px)
+{
+    .images{
+        width: 105%;
+        background-image: url('assets/BACKground.png');
+        background-size: 100% 100% ;
+        background-repeat: no-repeat;
+        background-position: 50% 100%;
+        padding:  15% 15% 0% 0%;
+        height: 100%;
+        background-repeat: no-repeat;
+    
+    }
+    .rightside
+    {
+        background-image: linear-gradient(41deg, #3597f5 0%, #a04df8 100%);
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        width: 100%;
+        height:300px;
+    }
+    .para
+    {
+        font-size: 15px;
+        line-height: 25px;
+        color: #ffffff;
+        font-family: "Aaargh";
+        font-weight: 200;
+        text-align: center;
+    }
+} 
+
+@media(max-width:964px)
+{
+    .para
+    {
+        font-size: 15px;
+        line-height: 25px;
+        color: #ffffff;
+        font-family: "Aaargh";
+        font-weight: 200;
+        text-align: center;
+    }
+
+    
+
+}
+
+@media(max-width:850px)
+{
+    .para
+    {
+        font-size: 10px;
+        line-height: 20px;
+        color: #ffffff;
+        font-family: "Aaargh";
+        font-weight: 200;
+        text-align: center;
+    }
+
+}
+
+@media(max-width:684px)
+{
+    .para
+    {
+        font-size: 10px;
+        line-height: 15px;
+        color: #ffffff;
+        font-family: "Aaargh";
+        font-weight: 200;
+        text-align: center;
+    }
+    .head2
+    {
+        font-size: 40px;
+        line-height: 50%;
+        color: #ffffff;
+        font-family: "Aaargh";
+        font-weight: 400;
+        text-align: center;
+        padding-top:20%;
+    }
+
+    .soon
+    {
+        font-size: 23px;
+        letter-spacing: 7px;
+        line-height: 103%;
+        color: #ffffff;
+        padding-top: 5%;
+        font-family: "Aaargh";
+        font-weight: 400;
+        text-align: center;
+        padding-bottom: 0%;
+    }
+}
